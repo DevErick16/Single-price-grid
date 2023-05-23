@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Karla:wght@700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Poppins&display=swap');
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --light_Cyan: hsl(175, 59%, 58%);
+    --Bright_Yellow: hsl(71, 73%, 54%);
+    --Light_Gray: hsl(204, 43%, 93%);
+    --Grayish_Blue: hsl(218, 22%, 67%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--Light_Gray);
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    border: 1px solid;
+    background-color: white;
+    height: 730px;
+    width: 315px;
+    margin: 70px auto 70px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/*---------our community--------------*/
+.our-comunity{
+    padding: 8px 24px 24px 24px;
+    height: 270px;
+    box-sizing: border-box;
+}
+.our-comunity h2.tittle{
+    color: var(--Cyan);
+    font-size: 1.3em;
+}
+.our-comunity h2.promo{
+    font-size: 1em;
+    color: var(--Bright_Yellow);
+    margin: 25px 0 10px 0;
+}
+.our-comunity p{
+    color: var(--Grayish_Blue);
+    font-size: 0.86em;
+    line-height: 27px;
+    margin-top: 16px;
+}
+/*----------monthly suscription-------------*/
+.monthly-suscription{
+    background-color: var(--Cyan);
+    padding: 12px 24px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--Light_Gray);
+}
+.monthly-suscription h2{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.monthly-suscription span.price{
+    font-size: 2em;
+    font-weight: 700;
+    margin-right: 7px;
+}
+.monthly-suscription span.payment{
+    color: var(--light_Cyan);
+}
+.monthly-suscription p{
+    margin-top: 8px;
+}
+.monthly-suscription button{
+    margin-top: 14px;
+    background-color: var(--Bright_Yellow);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 48px;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+}
+/*-----------why us------------*/
+.why-us{
+    background-color: var(--light_Cyan);
+    padding: 8px 24px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--Light_Gray);
+}
+.why-us h2{
+    color: white;
+    font-size: 1.1em;
+}
+.why-us li{
+    list-style-type: none;
+
+    margin-left: -40px;
+    font-size: 0.85em;
+    line-height: 20px;
+    font-weight: 300;
+    
+}
+/*---------footer--------------*/
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
